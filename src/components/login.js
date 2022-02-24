@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 import axios from 'axios';
 
-export default class AddOption extends React.Component {
+export default class Login extends React.Component {
   constructor(props){
     super(props)
 

@@ -1,6 +1,4 @@
 import React, {useEffect,useRef,useState} from 'react';
-import useCountdown from './timerSet';
-import jwtToken from './login';
 import {NavLink} from 'react-router-dom';
 import { VictoryPie } from "victory-pie";
 import axios from 'axios';

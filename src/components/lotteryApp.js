@@ -3,7 +3,7 @@ import Create from './create';
 import Dashboard from './dashboard';
 import Header from './header';
 import Login from './login';
-import Topup from './topup';
+import Topup from './topUp';
 
 export default class lotteryApp extends React.Component {
   state = {
