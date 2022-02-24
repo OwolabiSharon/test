@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom'
 import Login from '../components/login';
-import Create from '../components/create';
+import CreateAccount from '../components/create';
 import Dashboard from '../components/dashboard';
 import Topup from '../components/topUp';
 import Terms from '../components/terms';
