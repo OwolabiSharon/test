@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url("https://media.istockphoto.com/photos/coins-stack-on-black-picture-id1201558396?b=1&k=20&m=1201558396&s=170667a&w=0&h=WFcQ0X3k4eLT0i1ZdOYgeH6WXDJEfYtx1VniCQjwYxo=");
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h3{
+  font-size: 50px;
+  color: #f2c993
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  font-size: 16px
+}
+
+.header_listitem{
+  color: #faebd7;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.6s ease
+}
+.header_listitem:visited {
+  color: #faebd7;
+}
+.header_listitem:hover {
+  border: 1px solid #faebd7;
+  border-radius: 30px;
+  background-color: #faebd7;
+  color: black
+}
+
+.header_listitem:active {
+  color: #faebd7;
+}
+.content{
+  width:100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white
+}
+
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+  font-family: sans-serif;
+}
+
+.content p{
+  font-size: 20px;
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px
+}
+.div button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight:bold;
+  background: transparent;
+  border:2px solid #faebd7;
+  cursor: pointer;
+  color: white
+}
+.NavLink_div{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.6s ease
+}
+.NavLink_div:visited {
+  color: #faebd7
+}
+.NavLink_div:hover {
+  color: black
+}
+
+.NavLink_div:active {
+  color: #faebd7;
+}
+.navbar .fa{
+  display: none;
+
+}
+.navbar2 .fa{
+  display: none;
+
+}
+
+@media (max-width: 700px) {
+  .content h1{
+    font-size: 20px;
+  }
+
+  .navbar ul li{
+    display: block;
+    padding:10px;
+  }
+
+  .navbar ul{
+    transition:1s;
+    display: block;
+    position:absolute;
+    background: #faebd7;
+    height: 100vh;
+    width: 200px;
+    top:0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+
+  .navbar .fa{
+    display: block;
+    color: #faebd7;
+    margin: 10px;
+    font-size: 22px;
+  }
+
+  .header_listitem{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.6s ease
+  }
+  .header_listitem:visited {
+    color: black;
+  }
+  .header_listitem:hover {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color: #faebd7
+  }
+
+  .header_listitem:active {
+    color: #faebd7;
+  }
+  .header_list .fa{
+    color: black
+  }
+
+  .content p{
+    font-size: 18px;
+    margin: 18px auto;
+    font-weight: 100;
+    line-height: 25px
+  }
+  #fa-bars{
+    color: black
+  }
+
+  .navbar2 ul li{
+    display: block;
+    padding:10px;
+    margin: 8px
+  }
+
+  .navbar2 ul{
+    transition:1s;
+    display: block;
+    position:absolute;
+    background: #4b4640;
+    height: 100vh;
+    width: 200px;
+    top:0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+
+  .navbar2 .fa{
+    display: block;
+    color: #faebd7;
+    margin: 10px;
+    font-size: 22px;
+  }
+
+  .header_listitem2{
+    color: #faebd7;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.6s ease
+  }
+  .header_listitem2:visited {
+    color: #faebd7;
+  }
+  .header_listitem2:hover {
+    border: 1px solid #faebd7;
+    border-radius: 30px;
+    background-color: #faebd7;
+    color: black
+  }
+
+  .header_listitem2:active {
+    color: #faebd7;
+  }
+  .header_list2 .fa{
+    color: #faebd7
+  }
+  #NavLinks{
+    right: -200px;
+  }
+}
